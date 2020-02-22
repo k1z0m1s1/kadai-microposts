@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="row">
-        <aside class="con-sm-4">
+        <aside class="col-sm-4">
             @include('users.card', ['user' => $user])
         </aside>
         <div class="col-sm-8">

@@ -18,6 +18,10 @@
                     @endif
                 </div>
                 
+                <div>
+                    @include('microposts.favorite_button')
+                </div>
+                
             </div>
         </li>
     @endforeach
